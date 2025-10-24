@@ -8,52 +8,79 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/calculateButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Calculate"
         tools:layout_editor_absoluteX="151dp"
         tools:layout_editor_absoluteY="404dp" />
 
-    <TextView
-        android:id="@+id/Gross"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Gross"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.391" />
-
-    <TextView
-        android:id="@+id/Eggs"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Eggs"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.254" />
-
-    <TextView
-        android:id="@+id/Dozens"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Dozens"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.318" />
-
     <EditText
+        android:id="@+id/InputBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Enter eggs into here"
         tools:layout_editor_absoluteX="122dp"
         tools:layout_editor_absoluteY="332dp" />
+
+    <TextView
+        android:id="@+id/EggsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eggs:"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="181dp" />
+
+    <TextView
+        android:id="@+id/GrossDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gross"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.606"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/DozenDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dozens"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.608"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.317" />
+
+    <TextView
+        android:id="@+id/GrossText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gross:"
+        tools:layout_editor_absoluteX="140dp"
+        tools:layout_editor_absoluteY="278dp" />
+
+    <TextView
+        android:id="@+id/EggDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Eggs"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.605"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.254" />
+
+    <TextView
+        android:id="@+id/DozensText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dozens:"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="226dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
