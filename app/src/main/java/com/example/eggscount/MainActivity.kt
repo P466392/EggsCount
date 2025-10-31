@@ -49,9 +49,9 @@ class MainActivity : AppCompatActivity() {
             val result = eggHandler.calculateEggs(totalEggs)
 
             // 🔹 Display result
-            grossDisplay.text = "Gross: ${result.gross}"
-            dozenDisplay.text = "Dozens: ${result.dozens}"
-            eggDisplay.text = "Eggs: ${result.eggs}"
+            grossDisplay.text = "${result.gross}"
+            dozenDisplay.text = "${result.dozens}"
+            eggDisplay.text = "${result.eggs}"
         }
     }
 }
