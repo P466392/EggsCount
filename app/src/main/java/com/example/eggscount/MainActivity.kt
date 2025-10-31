@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         val eggHandler = EggHandler()
 
-        // 🔹 When user clicks "Calculate"
+        // When user clicks "Calculate"
         calculateButton.setOnClickListener {
             val inputText = inputBox.text.toString()
 
@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
 
             val result = eggHandler.calculateEggs(totalEggs)
 
-            // 🔹 Display result
+            // Display result
             grossDisplay.text = "${result.gross}"
             dozenDisplay.text = "${result.dozens}"
             eggDisplay.text = "${result.eggs}"
